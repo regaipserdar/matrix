@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+.search-area {
+    margin: 20px 0;
+}
+
+.search-box {
+    width: 309px;
+    padding: 3px;
+}
+
+.button-area {
+    margin: 15px 0;
+}
+
+.columns {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.column {
+    padding: 2px;
+    margin: 0 1px;
+}
+
+.column:first-child {
+    background-color: rgb(126, 229, 218);
+    width: 37%;
+}
+
+.column:nth-child(2) {
+    background-color: rgb(112, 204, 194);
+    width: 26%;
+}
+
+.column:last-child {
+    background-color: rgb(98, 179, 170);
+    width: 37%;
+}
+
+.column h2 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+}
+
+.column a {
+    display: block;
+    color: blue;
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.column p {
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.email-input {
+    width: 140px;
+    margin: 2px 0;
+}
+
+.subscribe-area {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.copyright {
+    margin-top: 12px;
+    font-size: 13px;
+}
